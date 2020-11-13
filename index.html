@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body {
+                max-width: 800px;
+                margin-left: auto;
+                padding-left: 5px;
+                padding-right: 5px;
+                margin-right: auto;
+                margin-top: 2em;
+                margin-bottom: 2em;
+                font-size: 130%;
+                background-color: #fcfcfc;
+            }
+            h1, h2, h3, h4, h5, h6 {
+                font-family: sans-serif;
+            }
+            .menu {
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: space-around;
+            }
+            .card {
+                flex: 0 1 30%;
+                min-width: 200px;
+                margin-bottom: 1em;
+                
+                text-decoration: none;
+                color: black;
+                background-color: #ffffff;
+                border: 1px solid black;
+                border-radius: 20px;
+                
+            }
+            .card-inner {
+                display: flex;
+                flex-flow: column;
+                justify-content: space-between;
+                align-items: center;
+                padding-left: 1em;
+                padding-right: 1em;
+            }
+        </style>
+        <title>Adam Novak's Start Page</title>
+    </head>
+    <body>
+        <h1>Adam Novak's Start Page</h1>
+        <p>These are all the pages that Adam Novak needs to open all the time to do his job. Sadly, Open All In Tabs doesn't work with containers. Hence this page.</p>
+        <p>If you are Adam Novak, or wish you were, you may find the following links useful:</p>
+        <div class="menu">
+            <a class="card" href="https://ucsc-gi.slack.com">
+                <div class="card-inner">
+                    <h1>Slack</h1>
+                    <p>UCSC GI Slack</p>
+                </div>
+            </a>
+            <a class="card" href="https://mail.google.com/mail/u/0/h/">
+                <div class="card-inner">
+                    <h1>E-Mail</h1>
+                    <p>Ye Olde Gmail</p>
+                </div>
+            </a>
+            <a class="card" href="https://ucsc-cgl.atlassian.net/secure/RapidBoard.jspa?rapidView=86">
+                <div class="card-inner">
+                    <h1>Toil JIRA</h1>
+                    <p>Scrum!</p>
+                </div>
+            </a>
+            <a class="card" href="https://github.com/vgteam/vg/issues">
+                <div class="card-inner">
+                    <h1>vg Issues</h1>
+                    <p>Problems for you</p>
+                </div>
+            </a>
+            <a class="card" href="https://github.com/DataBiosphere/toil/issues">
+                <div class="card-inner">
+                    <h1>Toil Issues</h1>
+                    <p>More Toil More Problems</p>
+                </div>
+            </a>
+            <a class="card" href="https://time-entry-ucsc.wfsaas.com/workforce/SSO.do">
+                <div class="card-inner">
+                    <h1>CruzPay</h1>
+                    <p>Become rich</p>
+                </div>
+            </a>
+        </div>
+    </body>
+</html>
+
